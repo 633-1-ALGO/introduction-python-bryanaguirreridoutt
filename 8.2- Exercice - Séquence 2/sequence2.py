@@ -4,3 +4,9 @@
 
 nb_articles = 13
 prix_ht = 42.75
+
+prixhtarticles = nb_articles * prix_ht
+
+prixTTC = prixhtarticles * 107.7/100
+
+print(prixTTC)
